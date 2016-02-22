@@ -17,3 +17,7 @@ Any code of interest is in the hu.zalatnai.user.domain package. All the rest are
 The core domain logic was unit tested using JUnit. Testing of the supporting classes were omitted for brevity.
 Acceptance tests should be added to ensure that the acceptance criteria were met. This should be done by using
 Cucumber to define the features, and probably I'd use Rest Assured + Spring MVC integration to implement the tests.
+
+##--Front-end--
+httpie/curl/wget/... :)
+See hu.zalatnai.usercrud.user.infrastructure.controller.UserController for the available endpoints.
