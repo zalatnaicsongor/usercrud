@@ -32,6 +32,10 @@ public class User {
         return memento.getModified();
     }
 
+    UserMemento getMemento() {
+        return this.memento;
+    }
+
     /**
      * Changes the date of birth of the user
      * @param dateOfBirth new date of birth
