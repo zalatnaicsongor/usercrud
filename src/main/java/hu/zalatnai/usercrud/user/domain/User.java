@@ -2,6 +2,7 @@ package hu.zalatnai.usercrud.user.domain;
 
 import java.time.Instant;
 import java.time.LocalDate;
+import java.util.UUID;
 
 import org.springframework.util.Assert;
 
@@ -10,6 +11,10 @@ import org.springframework.util.Assert;
  */
 public class User {
     private UserMemento memento;
+
+    public UUID getId() {
+        return memento.getId();
+    }
 
     public String getName() {
         return memento.getName();
