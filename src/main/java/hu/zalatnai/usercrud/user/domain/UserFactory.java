@@ -3,8 +3,14 @@ package hu.zalatnai.usercrud.user.domain;
 import java.time.LocalDate;
 
 /**
- * An interface which defines the contract of creating a new user.
+ * The contract of creating a new User.
  */
 public interface UserFactory {
-    User create(String name, LocalDate dob);
+    /**
+     * Creates a new domain entity representing a user
+     * @param name the nme of the user
+     * @param dateOfBirth the user's date of birth
+     * @return a new domain entity which represents the User
+     */
+    User create(String name, LocalDate dateOfBirth);
 }
