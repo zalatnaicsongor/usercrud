@@ -14,7 +14,7 @@ the mapping layers. The initial experiences were good, for non-complex scenarios
 Any code of interest is in the hu.zalatnai.user.domain package. All the rest are supporting packages
 
 ##--Testing--
-The core domain logic was unit tested using JUnit. Testing of the supporting classes (infrastructure services, etc.) were omitted for brevity.
+The core domain logic was unit tested using JUnit. **Testing of the supporting classes (infrastructure services, etc.) were omitted for brevity.**
 Acceptance tests should be added to ensure that the acceptance criteria were met. This should be done by using
 Cucumber to define the features, and probably I'd use Rest Assured + Spring MVC integration to implement the tests.
 
